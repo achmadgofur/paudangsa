@@ -3214,6 +3214,22 @@ textarea.form-control-lg {
 .dropdown-toggle:empty::after {
   margin-left: 0;
 }
+isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+ 
+	.isi-dropdown a {
+		color: #3c3c3c !important;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323 !important;
+		background: #f3f3f3 !important;
+	}
 
 .dropdown-menu {
   --bs-dropdown-zindex: 1000;
