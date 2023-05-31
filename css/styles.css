@@ -3214,9 +3214,6 @@ textarea.form-control-lg {
 .dropdown-toggle:empty::after {
   margin-left: 0;
 }
-li.dropdown {
- 	display: inline-block;
-}
  
 .dropdown:hover .isi-dropdown {
 	display: block;
